@@ -1070,6 +1070,11 @@ section.block.band-dark{border-radius:22px;margin-inline:auto;max-width:calc(var
 .c-hero .eyebrow{font-size:15px;gap:11px;letter-spacing:.07em}
 .c-hero .eyebrow::before{width:20px;height:14px}
 @media (max-width:860px){.duo .pcard{order:-1;min-height:0;aspect-ratio:1/1}.duo .pcard>img{object-position:72% 20%}}
+.c-hero h1{max-width:none;font-size:clamp(38px,6.2vw,80px)}
+.c-hero h1 .ln{display:block;white-space:nowrap}
+.c-hero .icon{width:1em;height:.72em;vertical-align:0;position:relative;top:-.15em;margin:0 0 0 .12em;border-radius:.18em}
+.c-hero h1 .nw{white-space:nowrap}
+@media (max-width:760px){.c-hero h1{font-size:clamp(30px,8.4vw,46px)}.c-hero h1 .ln{white-space:normal;text-wrap:balance}}
 /* rev: programs on white, dark cards only */
 #programs .prog{background:var(--dark);border-color:var(--dark);color:#fff}
 #programs .prog h3{color:#fff}
@@ -1117,7 +1122,7 @@ section.block.band-dark{border-radius:22px;margin-inline:auto;max-width:calc(var
   <section class="c-hero" aria-label="Introduction">
     <div class="wrap">
       <p class="eyebrow">Welcome, I'm Villa</p>
-      <h1>Policy That Starts <span class="icon" aria-hidden="true"><svg viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 1c0 4 3 6 7 6h4M9 4l3 3-3 3"/></svg></span> <span class="g">With The People It Serves</span></h1>
+      <h1><span class="ln">Policy That <span class="nw">Starts <span class="icon" aria-hidden="true"><svg viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 1c0 4 3 6 7 6h4M9 4l3 3-3 3"/></svg></span></span></span> <span class="ln g">With The People It Serves</span></h1>
       <p class="sub">I'm a policy analyst at the Nusantara Capital City Authority, turning community data and field insight into programs that end somewhere real.</p>
     </div>
   </section>
